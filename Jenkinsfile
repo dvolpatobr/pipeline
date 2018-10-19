@@ -5,5 +5,6 @@ node {
 
     customImage.inside {
         sh 'echo "ok"'
+        sh 'node --version'
     }
 }
